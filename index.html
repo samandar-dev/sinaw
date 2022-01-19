@@ -7,11 +7,493 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>v
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+  <header class="header">
+    <div class="header__inner">
+      <div class="container">
+        <div class="header__item row middle">
+          <a class="header__logo__link" href="#">
+            <img src="images/logo.svg" alt="logo" width="82" height="40">
+          </a>
+
+          <nav class="nav__box">
+            <ul class="nav__menu row middle">
+              <li class="nav__list">
+                <a class="nav__link act-nav-link" href="#">Home</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">Courses</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">Webinar</a>
+              </li>
+              <li class="nav__list">
+                <a class="nav__link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="global-icon">
+            <i class='bx bx-globe'></i>
+          </div>
+          <div class="selec__btn-box">
+            <select class="select__lang" name="lang">
+              <option class="lab__tit" for="eng">Eng</option>
+              <option class="lab__tit" value="rus">Rus</option>
+              <option class="lab__tit" value="uzb">Uzb</option>
+            </select>
+
+            <a class="btn login_btn" href="#">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main__box">
+    <div class="main__inner">
+      <section class="hero__box">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__item row">
+              <div class="hero__img-box">
+                <span class="hero-img-bool-1"></span>
+                <span class="hero-img-bool-2"></span>
+                <span class="hero-img-bool-3"></span>
+                <span class="hero-img-bool-4"></span>
+                <span class="hero-img-bool-5"></span>
+                <span class="hero-img-bool-6"></span>
+                <span class="anim-lampa">
+                  <img class="hero-icon-img" src="images/hero__person-img.svg" alt="icon" width="60" height="60">
+                </span>
+                <span class="anim-book">
+                  <img class="hero-icon-img" src="images/hero__book-img.svg" alt="icon" width="60" height="60">
+                </span>
+                <img class="hero__img" src="images/hero__person-img.png.png" alt="person-img" width="785" height="750">
+              </div>
+              <div class="hero__title-text-btns">
+                <h2 class="hero__title">Grow Your Skills To Advance Your Career Path.</h2>
+                <p class="hero__text">We have something big for you who want to level up!</p>
+                <form class="inp__box row middle">
+                  <input class="input-clas row middle" type="text" name="What do you want to learn" id="text"
+                    placeholder="What do you want to learn..." required>
+                  <button class="input--btn" type="submit"><i class='bx bx-search-alt-2'></i></button>
+                </form>
+                <div class="btns-box between">
+                  <h3 class="btns__tit">Suggestions</h3>
+                  <div class="btns-hero row middle">
+                    <a class="hero__btn" href="#">UI UX Design</a>
+                    <a class="hero__btn" href="#">CSS Fundamental</a>
+                    <a class="hero__btn hero-btn-r" href="#">3D Design Illustration</a>
+                    <a class="hero__btn" href="#">Website Development</a>
+                    <a class="hero__btn" href="#">Logo Design</a>
+                    <a class="hero__btn" href="#">Logo Design</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="users__aco row middle">
+              <a class="hero_use_img-1" href="#">
+                <img src="images/hero-user-1.png" alt="img" width="52" height="52">
+              </a>
+              <a class="hero_use_img-2" href="#">
+                <img src="images/hero-user-2.png" alt="img" width="52" height="52">
+              </a>
+              <a class="hero_use_img-3" href="#">
+                <img src="images/hero-user-3.png" alt="img" width="52" height="52">
+              </a>
+              <a class="hero_use_img-4" href="#">
+                <img src="images/hero-user-4.png" alt="img" width="52" height="52">
+              </a>
+              <a class="hero_use_img-5" href="#">
+                <img src="images/plus.svg" alt="img" width="52" height="52">
+              </a>
+              <p class="her__us__tit">More than 80k+
+                Students <span style="color: #FB5048;">joined!</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="users-box">
+        <div class="user-bg-img"></div>
+        <div class="container">
+          <div class="users__item">
+            <ul class="users__menu row middle between">
+              <li class="user__list row ">
+                <span class="users__icon">
+                  <img src="images/usr-icon.svg" alt="icon" width="25" height="22">
+                </span>
+                <div class="users__tit__text">
+                  <h3 class="users__title">Get New Friends</h3>
+                  <p class="users__text">
+                    You will meet new friends in some of classes that you take. Say hello to them and make friends, it
+                    will be so much warm friendship!
+                  </p>
+                </div>
+              </li>
+              <li class="user__list row ">
+                <span class="users__icon user-ic-2">
+                  <img src="images/user-icon-2.svg" alt="icon" width="24" height="24">
+                </span>
+                <div class="users__tit__text">
+                  <h3 class="users__title">Get New Friends</h3>
+                  <p class="users__text">
+                    You will meet new friends in some of classes that you take. Say hello to them and make friends, it
+                    will be so much warm friendship!
+                  </p>
+                </div>
+              </li>
+              <li class="user__list row ">
+                <span class="users__icon user-ic-3">
+                  <img src="images/user-book.svg" alt="icon" width="24" height="24">
+                </span>
+                <div class="users__tit__text">
+                  <h3 class="users__title">Get New Friends</h3>
+                  <p class="users__text">
+                    You will meet new friends in some of classes that you take. Say hello to them and make friends, it
+                    will be so much warm friendship!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="learn__box">
+        <div class="container">
+          <h2 class="title">What Do You Want to Learn?</h2>
+          <p class="tit">Choose the right class as you need. Then enjoy studying.</p>
+          <ul class="learn__item row between">
+            <li class="learn__list">
+              <a href="#">
+                <div class="lear__menu">
+                  <img src="images/learn-img-1.png" alt="img" width="250" height="170">
+                  <span class="learn__menu-tit">Technology</span>
+                  <h3 class="learn__menu-title">Digital Marketing Strategy</h3>
+                  <p class="learn__text">This courseve you deeper understanding of core processes ...</p>
+                  <div class="learn-user-box">
+                    <a class="learn_us-img" href="#">
+                      <img class="lea-us-img" src="images/hero-user-1.png" alt="user-img">
+                    </a>
+                  </div>
+                </div>
+              </a>
+              <a class="btn learn__us-btn" href="#">Access Class</a>
+            </li>
+            <li class="learn__list">
+              <a href="#">
+                <div class="lear__menu">
+                  <img src="images/learn-img-2.png" alt="img" width="250" height="170">
+                  <span class="learn__menu-tit">Technology</span>
+                  <h3 class="learn__menu-title">Digital Marketing Strategy</h3>
+                  <p class="learn__text">This courseve you deeper understanding of core processes ...</p>
+                  <div class="learn-user-box">
+                    <a class="learn_us-img" href="#">
+                      <img class="lea-us-img" src="images/hero-user-1.png" alt="user-img">
+                    </a>
+                  </div>
+                </div>
+              </a>
+              <a class="btn learn__us-btn" href="#">Access Class</a>
+            </li>
+            <li class="learn__list">
+              <a href="#">
+                <div class="lear__menu">
+                  <img src="images/learn-img-3.png" alt="img" width="250" height="170">
+                  <span class="learn__menu-tit">Technology</span>
+                  <h3 class="learn__menu-title">Digital Marketing Strategy</h3>
+                  <p class="learn__text">This courseve you deeper understanding of core processes ...</p>
+                  <div class="learn-user-box">
+                    <a class="learn_us-img" href="#">
+                      <img class="lea-us-img" src="images/hero-user-1.png" alt="user-img">
+                    </a>
+                  </div>
+                </div>
+              </a>
+              <a class="btn learn__us-btn" href="#">Access Class</a>
+            </li>
+            <li class="learn__list">
+              <a href="#">
+                <div class="lear__menu">
+                  <img src="images/learn-img-4.png" alt="img" width="250" height="170">
+                  <span class="learn__menu-tit">Technology</span>
+                  <h3 class="learn__menu-title">Digital Marketing Strategy</h3>
+                  <p class="learn__text">This courseve you deeper understanding of core processes ...</p>
+                  <div class="learn-user-box">
+                    <a class="learn_us-img" href="#">
+                      <img class="lea-us-img" src="images/hero-user-1.png" alt="user-img">
+                    </a>
+                  </div>
+                </div>
+              </a>
+              <a class="btn learn__us-btn" href="#">Access Class</a>
+            </li>
+          </ul>
+          <a class="lea-bt-link" href="#">Show All Classes</a>
+        </div>
+      </div>
+
+
+      <div class="online__box">
+        <div class="container">
+          <div class="online--item">
+            <h2 class="title">Live Online Webinar</h2>
+            <p class="tit online-tit">You can stream Webinar live on our apps. Stay update on our Webinar, it’s Free!
+            </p>
+
+            <div class="online__youtub">
+              <ul class="online__youtb-menu ">
+                <li class="online__you-list-1">
+                  <a class="online__link" href="#">
+                    <iframe width="620" height="420" src="https://www.youtube.com/embed/XKfgdkcIUxw"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </a>
+                </li>
+                <li class="online__you-list-2">
+                  <a class="online__link" href="#">
+                    <iframe width="400" height="270" src="https://www.youtube.com/embed/XKfgdkcIUxw"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </a>
+                </li>
+                <li class="online__you-list-3">
+                  <a class="online__link" href="#">
+                    <iframe width="400" height="270" src="https://www.youtube.com/embed/XKfgdkcIUxw"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </a>
+                </li>
+              </ul>
+              <a class="youtub--link row middle" href="#">See more webinar videos<i
+                  class='bx bxs-right-arrow-alt'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="course__box">
+        <div class="container">
+          <div class="course__item">
+            <h2 class="title">Course Pricing</h2>
+            <p class="tit">Choose pricing that suits to your need.</p>
+
+            <div class="course__menus">
+              <ul class="course__menu row middle between">
+                <li class="course__list">
+                  <div class="icons_statc row ">
+                    <span class="icon-spann row middle">
+                      <img src="images/course--icon-1.svg" alt="icon" width="34" height="34">
+                    </span>
+                    <div class="icon-course__tit">
+                      <p class="cours--fre-tit">Free</p>
+                      <p class="cours-mon-tit"><b class="nol">$ 0</b>/ month</p>
+                    </div>
+                  </div>
+                  <ul class="course__menu-me">
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                  </ul>
+                  <a class="course__meun-link" href="#">Your Current Package</a>
+                </li>
+                <li class="course__list">
+                  <div class="icons_statc row ">
+                    <span class="icon-spann row middle">
+                      <img src="images/course--icon-2.svg" alt="icon" width="34" height="34">
+                    </span>
+                    <div class="icon-course__tit">
+                      <p class="cours--fre-tit">Express</p>
+                      <p class="cours-mon-tit"><b class="nol">$ 75</b>/ month</p>
+                    </div>
+                  </div>
+                  <ul class="course__menu-me">
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                  </ul>
+                  <a class="course__meun-link" href="#">Your Current Package</a>
+                </li>
+                <li class="course__list">
+                  <div class="icons_statc row ">
+                    <span class="icon-spann row middle">
+                      <img src="images/course--icon-3.svg" alt="icon" width="34" height="34">
+                    </span>
+                    <div class="icon-course__tit">
+                      <p class="cours--fre-tit">Premium</p>
+                      <p class="cours-mon-tit"><b class="nol">$ 115</b>/ month</p>
+                    </div>
+                  </div>
+                  <ul class="course__menu-me">
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                    <li class="course__me-list">
+                      <p class="course__me-text">Free e-book for every class</p>
+                    </li>
+                  </ul>
+                  <a class="course__meun-link" href="#">Your Current Package</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="aside__box">
+        <div class="container">
+          <div class="aside__item_box row between">
+            <div class="aside__item">
+              <h2 class="aside-title">Get Our Apps, Now!</h2>
+              <p class="aside--tit">Reach out our apps everywhere and everytime with Sinauw Mobile Application.</p>
+              <a class="aside__pley--img" href="#">
+                <img src="images/pleay-img.svg" alt="img" width="165" height="70">
+              </a>
+              <a class="aside__pley--img" href="#">
+                <img src="images/app-store-img.svg" alt="img" width="145" height="70">
+              </a>
+            </div>
+            <div class="aside__img-box">
+              <img class="aside-img" src="images/aisde-img.svg" alt="aside--img" width="400" height="500">
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner row between">
+        <div class="footer__item">
+          <a class="footer__logo" href="#">
+            <img src="images/logo.svg" alt="logo" width="117" height="56">
+          </a>
+          <p class="footer__text">
+            Any feedback or questions?Contact us on our social media
+          </p>
+          <ul class="footer__menu row middle">
+            <li class="footer__list">
+              <a class="footer__link-icon" href="#">
+                <i class='bx bxl-facebook'></i>
+              </a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link-icon" href="#">
+                <i class='bx bxl-twitter'></i>
+              </a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link-icon" href="#">
+                <i class='bx bxl-instagram'></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item-menus">
+          <h3 class="footer__menus__title">Menu</h3>
+          <ul class="footer__menu">
+            <li class="footer__list">
+              <a class="footer__link" href="#">Home</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">Courses</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">Webinar</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item-menus">
+          <h3 class="footer__menus__title">Services</h3>
+          <ul class="footer__menu">
+            <li class="footer__list">
+              <a class="footer__link" href="#">Materials Update</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">Trusted Mentor</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">Free E-book</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">Meeting</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__item-menus">
+          <h3 class="footer__menus__title">Further Information</h3>
+          <ul class="footer__menu">
+            <li class="footer__list">
+              <a class="footer__link" href="#">Terms & Conditions</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item-menus">
+          <h3 class="footer__menus__title">Apps Download</h3>
+          <ul class="footer__menu">
+            <li class="footer__list">
+              <a class="footer__link" href="#">Google Play Store</a>
+            </li>
+            <li class="footer__list">
+              <a class="footer__link" href="#">App Store</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__text-botom">Copyright @ 2021 Sinauw. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
 
   <script src="js/main.js"></script>
 </body>
