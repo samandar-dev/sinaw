@@ -547,6 +547,10 @@ body {
   margin-bottom: 12px;
 }
 
+.learn-links{
+  text-decoration: none;
+}
+
 .learn__text {
   font-size: 14px;
   line-height: 150%;
