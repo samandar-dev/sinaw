@@ -577,6 +577,11 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.learn_us_img_tit {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12;
+}
+
 .learn__us-btn {
   position: absolute;
   bottom: 20px;
@@ -620,6 +625,7 @@ body {
 
 .online__youtub {
   position: relative;
+  perspective: 500px;
 }
 
 .online-tit {
@@ -629,8 +635,9 @@ body {
 .online__youtb-menu {
   position: relative;
   list-style-type: none;
+  transform-style: preserve-3d;
 }
-
+ 
 .online__you-list-1 {
   position: relative;
   top: -80px;
@@ -639,13 +646,14 @@ body {
   width: 620px;
   height: 420px;
   z-index: 20;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .online__you-list-2 {
   position: absolute;
   top: 0%;
   left: 0%;
+  transform: rotateY(10deg);
   width: 400px;
   height: 270px;
   opacity: 0.3;
@@ -655,6 +663,7 @@ body {
   position: absolute;
   top: 0%;
   right: 0;
+  transform: rotateY(-10deg);
   width: 400px;
   height: 270px;
   opacity: 0.3;
@@ -756,7 +765,7 @@ body {
   color: var(--text-color);
 }
 
-.cours-popular-img{
+.cours-popular-img {
   position: absolute;
   top: 0;
   right: 0;
