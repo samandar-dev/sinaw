@@ -305,7 +305,7 @@ body {
 }
 
 .inp__box {
-  width: 510px;
+  width: 505px;
   height: 70px;
   background: var(--bg-color-item);
   border-radius: var(--border-radiuso-3);
@@ -398,7 +398,7 @@ body {
 .hero_use_img-5 {
   position: absolute;
   top: 20px;
-  left: 130px;
+  left: 140px;
   width: 50px;
   height: 50px;
   background: #8087B8;
@@ -463,7 +463,7 @@ body {
 .users__icon {
   width: 50px;
   height: 50px;
-  padding: 12px;
+  padding: 10px;
   border: 2px solid #F77A7B;
   border-radius: var(--border-radiuso-5);
   margin-right: 17px;
@@ -547,7 +547,7 @@ body {
   margin-bottom: 12px;
 }
 
-.learn-links{
+.learn-links {
   text-decoration: none;
 }
 
@@ -564,7 +564,17 @@ body {
 }
 
 .lea-us-img {
+  margin-right: 15px;
   margin-top: 20px;
+}
+
+.learn_us_img_title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .learn__us-btn {
@@ -590,6 +600,12 @@ body {
   text-decoration: none;
   margin-left: 520px;
   margin-bottom: 65px;
+}
+
+.lea-bt-link:active {
+  opacity: 1;
+  background: #F5443B;
+  color: var(--color);
 }
 
 .online__youtub {
@@ -671,6 +687,7 @@ body {
 }
 
 .course__list {
+  position: relative;
   width: 370px;
   height: 515px;
   padding: 36px;
@@ -737,6 +754,13 @@ body {
   line-height: 150%;
 
   color: var(--text-color);
+}
+
+.cours-popular-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 12px 0px 0px;
 }
 
 .course__me-text::before {
