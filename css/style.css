@@ -389,7 +389,7 @@ body {
 .global-icon {
   position: absolute;
   top: 13px;
-  right: 30%;
+  right: 20%;
   width: 20px;
   height: 20px;
   color: var(--text-act-color);
@@ -667,6 +667,11 @@ body {
   width: 400px;
   height: 270px;
   opacity: 0.3;
+}
+
+.online_vid{
+  border-radius: 20px;
+  border: none;
 }
 
 .youtub--link {
